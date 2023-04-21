@@ -22,3 +22,5 @@
   - 支持语音输入和输出功能
   - 支持第三方OCR和语音识别功能
   - 能够快速准确地进行翻译
+
+!(https://github.com/lp57377/WXmini/blob/main/Docx/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84-.drawio.png)
