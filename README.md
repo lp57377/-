@@ -23,4 +23,4 @@
   - 支持第三方OCR和语音识别功能
   - 能够快速准确地进行翻译
 
-![](WXmini/Docx/系统架构-.drawio.png)
+![Alt text](/linear_regression/result_matrix.png)
