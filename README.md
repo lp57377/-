@@ -23,4 +23,4 @@
   - 支持第三方OCR和语音识别功能
   - 能够快速准确地进行翻译
 
-![Alt text](WXmini/Docx/System Architecture.png)
+![WXmini/Docx/System Architecture.png](https://github.com/lp57377/WXmini/blob/main/Docx/System%20Architecture.png)
