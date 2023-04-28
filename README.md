@@ -25,4 +25,4 @@
 
 - 系统架构
 
-![WXmini/Docx/System Architecture.png](https://github.com/lp57377/WXmini/blob/main/Docs/System%20Architecture.png)
+![WXmini/Docs/System Architecture.png](https://github.com/lp57377/WXmini/blob/main/Docs/System%20Architecture.png)
