@@ -1,0 +1,48 @@
+.containerVideo {
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  box-sizing: border-box;
+  position:relative;
+  font-family: "PingFang-SC-Regular","SimSun","Microsoft Yahei";
+  font-variant-ligatures: none;
+  background-color: #FAFAFA;
+}
+page {
+  height: 100%;
+  width: 100%;
+  background: #FAFAFA;
+}
+
+input {
+  font-family: "PingFang-SC-Regular","SimSun","Microsoft Yahei";
+}
+
+.container {
+  padding: 0;
+  background-color: #f0f8ff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: rgb(51, 51, 51);
+}
+.copyright {
+  align-self: center;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 20rpx;
+  font-size: 28rpx;
+  color: #999;
+}
+.view-hover,
+.navigator-hover {
+  background-color: #f3f3f3!important;
+}

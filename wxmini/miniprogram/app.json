@@ -1,0 +1,39 @@
+{
+  "plugins":{
+    "WechatSI": {
+      "version":"0.3.5",
+      "provider":"wx069ba97219f66d99"
+    }
+  },
+  "pages":[
+    "pages/index/index",
+    "pages/change/change",
+    "pages/history/history",
+    "pages/camera/camera",
+    "pages/video/video",
+    "pages/edit/edit"
+  ],
+  "window":{
+    "backgroundColor":"#333",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1c1b21",
+    "navigationBarTitleText": "翻译",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "borderStyle":"white",
+    "position":"top",
+    "color":"#595959",
+    "selectedColor":"#1c1b21",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text":"翻译"
+      },
+      {
+        "pagePath":"pages/history/history",
+        "text":"历史"
+      }
+    ]
+  }
+}
