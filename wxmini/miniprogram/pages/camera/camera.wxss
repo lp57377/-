@@ -1,0 +1,22 @@
+.miniimage{
+  width: 100%;
+  height: 40vh;
+  align-self: center;
+}
+
+.input-area .text-area {
+  min-height: 120rpx;
+  padding: 40rpx;
+  background-color: #fff;
+}
+.input-area .text-title {
+  font-size: 28rpx;
+  color: #8995a1;
+}
+.input-area .text-result {
+  padding: 20rpx 0;
+}
+
+.translateButton{
+  margin-top: 20rpx;
+}

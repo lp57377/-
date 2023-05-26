@@ -1,0 +1,42 @@
+/* change.wxss */
+@import "../Asset/iconfont.wxss";
+.container {
+  background: #f8f8f8;
+}
+
+.title {
+  background: white;
+  border-bottom: 1px solid #ececec;
+  padding: 20rpx 40rpx;
+  color: #aaa;
+  font-size: 28rpx;
+}
+
+.lang-wrapper {
+  padding-left: 40rpx;
+}
+
+.lang-wrapper .item {
+  padding: 20rpx 40rpx 20rpx 0;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+  font-size: 32rpx;
+}
+.item .lang {
+  flex: 1;
+}
+.item .iconfont {
+  color: #aaa;
+  font-size: 30rpx;
+  padding-left: 10rpx;
+}
+
+.item-inner
+{
+  border-bottom: 1px solid #ececec;
+  padding: 20rpx 20rpx;
+}
+
