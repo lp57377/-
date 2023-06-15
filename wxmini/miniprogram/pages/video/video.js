@@ -15,24 +15,12 @@ const manager = plugin.getRecordRecognitionManager()
 Page({
   data: {
     dialogList: [
-      // {
-      //   // 当前语音输入内容
-      //   create: '04/27 15:37',
-      //   lfrom: 'zh_CN',
-      //   lto: 'en_US',
-      //   text: '这是测试这是测试这是测试这是测试',
-      //   translateText: 'this is test.this is test.this is test.this is test.',
-      //   voicePath: '',
-      //   translateVoicePath: '',
-      //   autoPlay: false, // 自动播放背景音乐
-      //   id: 0,
-      // },
     ],
-    scroll_top: 10000, // 竖向滚动条位置
+    scroll_top: 10000, 
 
-    bottomButtonDisabled: false, // 底部按钮disabled
+    bottomButtonDisabled: false, 
 
-    tips_language: language[0], // 目前只有中文
+    tips_language: language[0], 
 
     initTranslate: {
       // 为空时的卡片内容
@@ -87,7 +75,6 @@ Page({
    */
   streamRecordEnd: function(e) {
 
-    // console.log("streamRecordEnd" ,e)
     let detail = e.detail || {}  // 自定义组件触发事件时提供的detail对象
     let buttonItem = detail.buttonItem || {}
 
@@ -259,7 +246,6 @@ Page({
     let arrIndex = detail.index
     tmpDialogList.splice(arrIndex, 1)
 
-    // 不使用setTImeout可能会触发 Error: Expect END descriptor with depth 0 but get another
     setTimeout( ()=>{
       this.setData({
         dialogList: tmpDialogList

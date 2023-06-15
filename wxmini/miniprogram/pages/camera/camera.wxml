@@ -1,15 +1,24 @@
 <view class="container">
-    <image src="{{imageUrl}}" class="miniimage" bindtap="get_image"></image>
+    <image src="{{imageUrl}}" class="miniimage" bindtap="doUpload"></image>
+
+    <view class='input-area'>
+      <view class='text-area'>
+        <view class='text-title'>识别结果</view>
+        <view class='text-result' wx:for="{{result}}" wx:key="index">
+          <text selectable='true'>{{item.words}}</text>
+        </view>
+      </view>
+    </view>
 
     <view class='input-area'>
       <view class='text-area'>
         <view class='text-title'>译文</view>
-        <view class='text-result' wx:for="{{result}}" wx:key="index">
+        <view class='text-result' wx:for="{{translate_result}}" wx:key="index">
           <text selectable='true'>{{item.dst}}</text>
         </view>
       </view>
     </view>
 
-    <button bindtap="recognition" type="primary" class="translateButton">
+    <button bindtap="doTranslate" type="primary" class="translateButton">
     翻译</button>
 </view>

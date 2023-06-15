@@ -19,9 +19,9 @@ function textTranslate(q, from, to){
       },
       success(res) {
         if(res.data && res.data.trans_result) {
-          // console.log(res,'1')
-          // console.log(res.data,'2')
-          // console.log(res.data.trans_result,'3')
+          //console.log(res,'1')
+          //console.log(res.data,'2')
+          //console.log(res.data.trans_result,'3')
           resolve(res.data)
         } else{
           reject({status: 'error', msg: '翻译失败'})
@@ -32,7 +32,8 @@ function textTranslate(q, from, to){
           })
         }
       },
-      fail() {
+      fail(res) {
+        console.log(res)
         reject({status: 'error', msg: '翻译失败'})
         wx.showToast({
           title: '网络异常',
